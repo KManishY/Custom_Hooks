@@ -32,3 +32,6 @@ const Pages = ({ data }) => {
 };
 
 export default Pages;
+
+
+
