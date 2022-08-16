@@ -18,11 +18,5 @@ export const usePagination = (perPageRecords, totalPageRecords) => {
 			setEndPageIndex(end_page_index);
 		}
 	};
-	return [
-		totalPages,
-		startPageIndex,
-		endPageIndex,
-		currentPageIndex,
-		displayPage,
-	];
+	return [totalPages, startPageIndex, endPageIndex, displayPage];
 };
